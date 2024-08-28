@@ -13,7 +13,7 @@ INVITE_URL = 't.me/catsgang_bot?startapp=TIEKxkfrpd5cD_0cxJeoe'
 
 async def main():
     # Membuat instance TelegramClient
-    client = TelegramClient('session_name', API_ID, API_HASH)
+    client = TelegramClient('session_name', 29445957, ea1dc93974f40fcad641e45ef93d4e59)
     
     # Memulai client
     await client.start(PHONE)
